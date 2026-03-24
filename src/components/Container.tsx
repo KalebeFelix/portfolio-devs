@@ -37,11 +37,8 @@ const variants = {
 };
 
 const navLinks = [
-  { href: "#home", text: "Home" },
-  { href: "#about", text: "About" },
-  { href: "#projects", text: "Projects" },
-  { href: "#services", text: "Services" },
-  { href: "#contact", text: "Contact" },
+  { href: "#projects", text: "Projetos" },
+  { href: "#services", text: "Serviços" }
 ];
 
 function handleClick(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
@@ -221,7 +218,7 @@ export default function Container(props: ContainerProps) {
                 {/* Footer */}
                 <div className="flex min-h-fit w-full flex-col space-y-8 px-[22px] py-10">
                   <span className="text-sm text-muted-foreground">
-                    © {new Date().getFullYear()} wendo. All rights reserved.
+                    © {new Date().getFullYear()}
                   </span>
                 </div>
               </div>

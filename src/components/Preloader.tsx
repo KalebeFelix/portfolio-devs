@@ -24,14 +24,8 @@ const slideUp = {
 };
 
 const words = [
-  "Hello",
-  "Bonjour",
-  "Ciao",
-  "Olà",
-  "やあ",
-  "Hallå",
-  "Guten tag",
-  "Hallo",
+  "Bem-vindo!",
+ 
 ];
 
 export default function Preloader() {
